@@ -1,0 +1,34 @@
+{
+  "name": "dungeon-engine",
+  "version": "1.0.0",
+  "description": "A JavaScript/TypeScript engine for classic first-person dungeon RPG games like Lands of Lore, Eye of the Beholder, and Dungeon Master.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write src/**/*{.ts,.tsx}"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "jsdom": "^23.0.1",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vitest": "^1.1.0"
+  },
+  "keywords": [
+    "dungeon",
+    "rpg",
+    "game-engine",
+    "typescript",
+    "babylonjs"
+  ],
+  "author": "Barbora Hodinova",
+  "license": "MIT"
+}
